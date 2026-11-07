@@ -33,5 +33,5 @@ fi
 
 # 4) Processos: quantos estao rodando
 echo "[OK] Processos rodando: $(ps aux | wc -l)"
-
+echo "[OK] Tempo ligado: $(uptime -p)"
 echo "Fim do health check"
