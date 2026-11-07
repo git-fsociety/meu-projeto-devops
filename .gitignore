@@ -1,0 +1,4 @@
+# arquivos gerados - nao versionar
+*.log
+relatorio.txt
+app/index.html
