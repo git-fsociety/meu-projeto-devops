@@ -1,0 +1,10 @@
+services:
+  site:
+    build: .
+    ports:
+      - "8080:80"
+    depends_on:
+      - visitas
+
+  visitas:
+    image: redis:alpine
